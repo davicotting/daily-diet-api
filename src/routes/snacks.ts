@@ -124,7 +124,7 @@ export async function snacks(app: FastifyInstance) {
     return reply.code(201).send();
   });
 
-  app.get("/analytics", async (request, reply) => {w
+  app.get("/analytics", async (request, reply) => {
 
     const { userId } = request.cookies;
 
