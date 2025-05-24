@@ -1,0 +1,35 @@
+{
+  "name": "daily-diet-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx --watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davicotting/daily-diet-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davicotting/daily-diet-api/issues"
+  },
+  "homepage": "https://github.com/davicotting/daily-diet-api#readme",
+  "description": "",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "fastify": "^5.3.3",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.25"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4"
+  }
+}
